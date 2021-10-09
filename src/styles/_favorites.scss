@@ -1,0 +1,114 @@
+.favoritesMainContainer {
+  position: fixed;
+  width: 281px;
+  height: fit-content;
+  right: 10%;
+  top: 0;
+  background: #6B63B5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.favButtonsContainer {
+  display: flex;
+}
+
+.favButtonsContainer button {
+  height: 36px;
+  width: 50%;
+  background: #6B63B5;
+  border: none;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.favoritesMainContainer button:first-child {
+  border-radius: 0 0 0 10px;
+}
+
+.favoritesMainContainer button:last-child {
+  border-radius: 0 0 10px 0;
+}
+
+.favoritesList {
+  height: 0;
+  overflow: hidden;
+  transition: all ease-in-out 0.3s;
+
+}
+
+.favoritesListShow {
+  height: 300px;
+  transition: all ease-in-out 0.3s;
+  overflow-y: auto;
+  padding-top: 1rem;
+}
+
+.favoriteElementContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.favoriteElementContainer hr {
+  width: 100%;
+  border: 1px solid #403B6D;
+}
+
+.favoriteElement {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.favoriteImg {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center top;
+}
+
+.favoriteElement p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.favIcons {
+  fill: white;
+  cursor: pointer;
+}
+
+
+@media (max-width:768px) {
+  .favoritesMainContainer {
+    bottom: 0;
+    top: initial;
+    right: 50%;
+    transform: translateX(50%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 0 0;
+    flex-direction: column-reverse;
+    z-index: 1;
+  }
+
+  .favoritesMainContainer button:first-child {
+    border-radius: 10px 0 0 0;
+  }
+
+  .favoritesMainContainer button:last-child {
+    border-radius: 0 10px 0 0;
+  }
+}

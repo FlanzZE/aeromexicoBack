@@ -1,0 +1,87 @@
+.characterCard {
+  width: 515px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 16px;
+  min-height: 256px;
+  margin-top: 3rem;
+  display: flex;
+}
+
+.characterImg {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  background-size: cover;
+  background-position: center top;
+}
+
+
+.imgContainer {
+  align-items: center;
+  //background: linear-gradient(135deg, #FF0000 0%, #fe8482 100%);
+  border-radius: 16px 0px 0px 16px;
+  display: flex;
+  justify-content: center;
+  min-width: 210px;
+}
+
+.descriptionContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headerDescription {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.favTag {
+  cursor: pointer;
+}
+
+.favorite {
+  fill: black;
+}
+
+.detailsCharacter p {
+  font-size: 14px;
+  margin: 0 1rem;
+  text-align: start;
+}
+
+@media (max-width:768px) {
+  .characterCard {
+    width: 140px;
+    min-height: 180px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .imgContainer {
+    min-width: 100%;
+    height: 80px;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .characterImg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .descriptionContainer {
+    flex-direction: column-reverse;
+  }
+
+  .descriptionContainer h1 {
+    font-size: 18px;
+  }
+
+  .detailsCharacter {
+    display: none;
+  }
+}

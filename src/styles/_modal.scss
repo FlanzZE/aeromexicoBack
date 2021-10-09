@@ -1,0 +1,26 @@
+.modalContainer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.generalContainerModal {
+  align-items: center;
+  backdrop-filter: blur(20px);
+
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.modalContent {
+  background-color: #ffffff;
+  padding: 1rem;
+  width: 80%;
+  border-radius: 10px;
+}
