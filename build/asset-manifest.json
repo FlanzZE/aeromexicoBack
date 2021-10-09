@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.952e55fa.chunk.css",
+    "main.js": "/static/js/main.e0274431.chunk.js",
+    "main.js.map": "/static/js/main.e0274431.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.406dd86f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.406dd86f.js.map",
+    "static/js/2.2e7cbbb6.chunk.js": "/static/js/2.2e7cbbb6.chunk.js",
+    "static/js/2.2e7cbbb6.chunk.js.map": "/static/js/2.2e7cbbb6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.952e55fa.chunk.css.map": "/static/css/main.952e55fa.chunk.css.map",
+    "static/js/2.2e7cbbb6.chunk.js.LICENSE.txt": "/static/js/2.2e7cbbb6.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/Background.413cb15c.png",
+    "static/media/HarryPotter.8f12e92c.svg": "/static/media/HarryPotter.8f12e92c.svg",
+    "static/media/logo.b2e5a01e.svg": "/static/media/logo.b2e5a01e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.406dd86f.js",
+    "static/js/2.2e7cbbb6.chunk.js",
+    "static/css/main.952e55fa.chunk.css",
+    "static/js/main.e0274431.chunk.js"
+  ]
+}
